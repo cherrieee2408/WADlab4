@@ -1,38 +1,84 @@
 body {
     margin: 0;
-    font-family: Arial;
-    background-color: #37475A;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* TOP HEADER */
+.top-header {
+    display: flex;
+    background-color: #2b3440;
     color: white;
+    height: 80px;
 }
 
-.header {
-    background: #131921;
-    padding: 10px;
-    text-align: center;
+.logo-box {
+    width: 200px;
+    background-color: #e8f6f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.logo {
+.logo-box img {
     width: 150px;
 }
 
-.navbar {
-    background: #232F3E;
-    padding: 10px;
-    text-align: center;
+.title-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.navbar a {
+/* NAV BAR */
+.nav-bar {
+    display: flex;
+    background-color: #3b4556;
+}
+
+.nav-bar div {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+
+.nav-bar a {
     color: white;
-    margin: 10px;
     text-decoration: none;
+    font-weight: bold;
 }
 
-.main, .content, .amazon-container {
-    padding: 20px;
-    text-align: center;
+/* BODY */
+.body-container {
+    display: flex;
+    min-height: 450px;
 }
 
-.nav-box {
+/* LEFT PANEL */
+.left-panel {
+    width: 250px;
+    background-color: #eeeeee;
     padding: 20px;
+}
+
+.left-panel h3 {
+    margin-top: 0;
+}
+
+.left-panel ul {
+    padding-left: 20px;
+}
+
+/* RIGHT PANEL */
+.right-panel {
+    flex: 1;
+    background-color: #f7f7f7;
+    padding: 30px;
+}
+
+.right-panel h2 {
     text-align: center;
 }
