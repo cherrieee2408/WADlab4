@@ -1,0 +1,46 @@
+/* Font and Background Color tags */
+body {
+    font-family: 'Bahnschrift Condensed', sans-serif;
+    background-color: #EAEDED;
+    margin: 10px;
+}
+
+/* Heading: Bold + Text Size + Centered tags */
+h1, h2, h3 {
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    color: #232F3E;
+    margin-top: 5px;
+}
+
+/* Side-heading: Bold + Red Color tags */
+.side-heading {
+    font-weight: bold;
+    color: #B12704;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* List Items: Italic tag */
+li {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+/* Links: Red + Bold + Italic tags */
+.nav-link {
+    color: #B12704;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+
+/* Container: Border + Border Style + Padding tags */
+.amazon-container {
+    border: 1px solid #232F3E;
+    border-style: solid;
+    padding: 20px;
+    background-color: white;
+}
