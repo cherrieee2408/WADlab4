@@ -1,19 +1,19 @@
 body {
     margin: 0;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Header */
+/* HEADER */
 .header {
     display: flex;
     height: 80px;
-    background: #2b3440;
+    background-color: #2b3440;
     color: white;
 }
 
 .logo {
     width: 200px;
-    background: #e6f5f0;
+    background-color: #e6f5f0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,40 +28,43 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
 }
 
-/* Menu */
+/* MENU */
 .menu {
-    background: #3b4556;
-    padding: 10px;
+    background-color: #3b4556;
+    padding: 12px;
 }
 
 .menu a {
     color: white;
     text-decoration: none;
-    display: inline-block;
-    margin-right: 20px;
+    margin-right: 25px;
     font-weight: bold;
 }
 
-/* Main layout */
+/* MAIN LAYOUT */
 .main {
     display: flex;
     min-height: 500px;
 }
 
-/* Left panel */
+/* LEFT PANEL */
 .left {
     width: 250px;
-    background: #eeeeee;
+    background-color: #eeeeee;
     padding: 20px;
 }
 
-/* Right panel */
+/* RIGHT PANEL */
 .right {
     flex: 1;
-    background: #f7f7f7;
+    background-color: #f7f7f7;
     padding: 30px;
+}
+
+.right h2 {
+    text-align: center;
 }
