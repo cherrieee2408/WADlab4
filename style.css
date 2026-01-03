@@ -3,6 +3,7 @@ body {
     font-family: Arial;
 }
 
+/* Header */
 .header {
     display: flex;
     height: 80px;
@@ -19,7 +20,7 @@ body {
 }
 
 .logo img {
-    width: 140px;
+    width: 150px;
 }
 
 .title {
@@ -27,44 +28,40 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
 }
 
+/* Menu */
 .menu {
-    display: flex;
     background: #3b4556;
-}
-
-.menu div {
-    flex: 1;
-    text-align: center;
-    padding: 12px;
+    padding: 10px;
 }
 
 .menu a {
     color: white;
     text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
     font-weight: bold;
 }
 
+/* Main layout */
 .main {
     display: flex;
     min-height: 500px;
 }
 
+/* Left panel */
 .left {
     width: 250px;
     background: #eeeeee;
     padding: 20px;
 }
 
+/* Right panel */
 .right {
     flex: 1;
     background: #f7f7f7;
     padding: 30px;
-}
-
-.right h2 {
-    text-align: center;
 }
